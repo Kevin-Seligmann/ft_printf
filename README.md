@@ -24,7 +24,7 @@ This is a small implementation of the C's printf function, based on MAC implemen
 - %X - A hexadecimal number in uppercase
 - %% - The % symbol
 
-Disclaimer: Neither this document or printf's [manual](https://man7.org/linux/man-pages/man3/printf.3.html) will fully describe the behaviour of this function. This is due to the amount of decisions that are not written on the manual
+Disclaimer: Neither this document or printf's [manual](https://developer.apple.com/library/archive/documentation/System/Conceptual/ManPages_iPhoneOS/man3/printf.3.html) will fully describe the behaviour of this function. This is due to the amount of decisions that are not written on the manual
 and only come up experimenting with the original printf, which might also be SO dependant.
 
 To fully understand the scope of this project, I invite you to read the subject.
