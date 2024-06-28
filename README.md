@@ -58,9 +58,7 @@ Before the number of a signed specification, would place a space before positive
 
 Before a signed specification, would place a plus before positive numbers.
 
-Neither this document or printf's [manual](https://developer.apple.com/library/archive/documentation/System/Conceptual/ManPages_iPhoneOS/man3/printf.3.html) will fully describe the behaviour of this function. This is due to the amount of decisions that are not written on the manual and only come up experimenting with the original printf.
-
-To fully understand the scope of this project, I invite you to read the subject.
+For more information read printf's [manual](https://developer.apple.com/library/archive/documentation/System/Conceptual/ManPages_iPhoneOS/man3/printf.3.html).
 
 To learn about the styleguide we need to follow, I invite you to read the [Norminette](https://github.com/42School/norminette). 
 
