@@ -1,8 +1,6 @@
 # ft_printf
 
-int ft_printf(char *str, ... );
-
-This is a small implementation of the C's printf function, based on MAC implementation (e.g, it prints '(NULL)' for an string that is a null pointer instead of '(nil)').
+This is a small implementation of the C's printf function, based on MAC implementation (e.g, it prints '(NULL)' for an string that is a null pointer.
 
 ft_printf will read each character until it finds a '%', then it will replace the substring that starts in '%' and ends in the next specification, to another substring that is the product of the formatting rules.
 
@@ -58,13 +56,17 @@ Before the number of a signed specification, would place a space before positive
 
 Before a signed specification, would place a plus before positive numbers.
 
-For more information read printf's [manual](https://developer.apple.com/library/archive/documentation/System/Conceptual/ManPages_iPhoneOS/man3/printf.3.html).
+For more information read printf's [Apple's manual](https://developer.apple.com/library/archive/documentation/System/Conceptual/ManPages_iPhoneOS/man3/printf.3.html).
 
-To learn about the styleguide we need to follow, I invite you to read the [Norminette](https://github.com/42School/norminette). 
+Styleguide [Norminette](https://github.com/42School/norminette).
 
-# Building
+Some details of the implementation are very specific to the version tested against and are not documented. The apple's manuel is a good guideline to the used behaviour.
 
-By cloning the repository and using [GNU Make](https://www.gnu.org/software/make/).
+# Usage
+
+It's advisable to use this function along with [libft](https://github.com/Kevin-Seligmann/libft/)
+
+ft_printf can be compiled using make on the project root directory
 
 The original project was written for Mac and works for Debian and Ubuntu. The updated version might work only on Debian and Ubuntu.
 
