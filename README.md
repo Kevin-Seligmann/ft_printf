@@ -60,7 +60,7 @@ For more information read printf's [Apple's manual](https://developer.apple.com/
 
 Styleguide [Norminette](https://github.com/42School/norminette).
 
-Some details of the implementation are very specific to the version tested against and are not documented. The apple's manuel is a good guideline to the used behaviour.
+Some details of the implementation are very specific to the version tested against and are not documented. The apple's manual is a good guideline to the implemented behaviour.
 
 # Usage
 
